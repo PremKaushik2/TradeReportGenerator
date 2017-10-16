@@ -7,6 +7,11 @@ import java.util.Map;
 
 import com.jp.trade.report.trading.week.IWorkingDays;
 
+/**
+ * Represents Wroking weekdays for trade Settlement
+ * @author prem sharma
+ *
+ */
 public abstract class WorkingDays implements IWorkingDays {
     protected Map<DayOfWeek, Boolean> isWorkingDayMap = new HashMap<>();
 

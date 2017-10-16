@@ -2,6 +2,11 @@ package com.jp.trade.report.model;
 
 import java.time.LocalDate;
 
+/**
+ * Represents  the attributes of Rank state
+ * @author premsharma
+ *
+ */
 public class Rank {
     private final int rank;
     private final String entity;

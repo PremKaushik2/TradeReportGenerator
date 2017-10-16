@@ -2,7 +2,6 @@ package com.jp.trade.report.statistic.calculator;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.Currency;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
@@ -14,16 +13,13 @@ import java.util.stream.Collectors;
 import com.jp.trade.report.model.Instruction;
 import com.jp.trade.report.model.Rank;
 import com.jp.trade.report.model.TradeAction;
-import com.jp.trade.report.trading.week.IWorkingDays;
-import com.jp.trade.report.trading.weekImpl.ArabiaWorkingDays;
-import com.jp.trade.report.trading.weekImpl.DefaultWorkingDays;
 
 /**
- * A settlement date calculator
- */
-/**
+ * 
+ * A Settlement Statistic attribute  calculator
  * Describes a mapping between dates and the trade amount of those dates, based
  * on instructions
+ * @author premsharma
  */
 public class InstructionSettlementStatsCalculator {
 

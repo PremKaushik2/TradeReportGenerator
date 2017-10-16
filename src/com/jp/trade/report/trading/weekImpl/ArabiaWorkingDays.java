@@ -2,6 +2,11 @@ package com.jp.trade.report.trading.weekImpl;
 
 import java.time.DayOfWeek;
 
+/**
+ * Represents Arabic WorkingDays For AED Currency
+ * @author premsharma
+ *
+ */
 public class ArabiaWorkingDays extends WorkingDays {
 
     private static ArabiaWorkingDays instance = null;

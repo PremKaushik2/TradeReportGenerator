@@ -2,6 +2,11 @@ package com.jp.trade.report.trading.weekImpl;
 
 import java.time.DayOfWeek;
 
+/**
+ * Represents Default Workingdays which Excludes AED and and SAR 
+ * @author prem sharma
+ *
+ */
 public class DefaultWorkingDays extends WorkingDays {
 
     private static DefaultWorkingDays instance = null;

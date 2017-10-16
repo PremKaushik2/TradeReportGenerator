@@ -12,6 +12,11 @@ import com.jp.trade.report.processor.Processor;
 import com.jp.trade.report.settlementdate.calculator.InstructionSettlementDateCalculator;
 import com.jp.trade.report.statistic.calculator.InstructionSettlementStatsCalculator;
 
+/**
+ *  {@link ReportProcessor} Implementation of Processor
+ * @author premsharma
+ *
+ */
 public class ReportProcessor implements Processor {
 
 	private StringBuilder stringBuilder = new StringBuilder();

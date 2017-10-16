@@ -1,5 +1,10 @@
 package com.jp.trade.report.model;
 
+/**
+ * Enum to identify the the nature of Trade i.e Buyside or SellSide
+ * @author premsharma
+ *
+ */
 public enum TradeAction {
     BUY("B"),
     SELL("S");

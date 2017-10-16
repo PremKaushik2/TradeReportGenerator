@@ -10,7 +10,11 @@ import com.jp.trade.report.trading.weekImpl.ArabiaWorkingDays;
 import com.jp.trade.report.trading.weekImpl.DefaultWorkingDays;
 
 /**
- * A settlement date calculator
+ * A settlement date calculator which calculates the SettlementDate
+ */
+/**
+ * @author prem sharma
+ *
  */
 public class InstructionSettlementDateCalculator {
 

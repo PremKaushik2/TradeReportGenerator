@@ -10,7 +10,13 @@ import java.util.Set;
 import com.jp.trade.report.model.Instruction;
 import com.jp.trade.report.model.InstructionDetails;
 import com.jp.trade.report.model.TradeAction;
+import com.jp.trade.report.processor.Processor;
 
+/**
+ * {@link InstructionsGenerator} Generates the instruction for {@link Processor} to process them
+ * @author prem sharma
+ *
+ */
 public class InstructionsGenerator {
 	public static Set<Instruction> getFakeInstructions() {
 		List<Instruction> list = (Arrays.asList(

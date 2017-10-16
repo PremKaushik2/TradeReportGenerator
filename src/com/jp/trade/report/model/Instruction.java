@@ -4,12 +4,16 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Currency;
 
+
 /**
  * Describes an instruction sent by various clients in order to buy or sell
+ * @author prem sharma
+ *
  */
 public class Instruction {
 
-    // A financial entity whose shares are to be bought or sold
+
+	// A financial entity whose shares are to be bought or sold
     private final String entity;
 
     // What action should the Instruction represents (Buy or Sell)
